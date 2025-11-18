@@ -17,10 +17,10 @@ let package = Package(
             name: "MLCEngineObjC",
             path: "ios/MLCSwift/Sources/ObjC",
             cxxSettings: [
-                .headerSearchPath("../../../3rdparty/tvm/include"),
-                .headerSearchPath("../../../3rdparty/tvm/3rdparty/tvm-ffi/include"),
-                .headerSearchPath("../../../3rdparty/tvm/3rdparty/tvm-ffi/3rdparty/dlpack/include"),
-                .headerSearchPath("../../../3rdparty/tvm/3rdparty/dmlc-core/include")
+                .headerSearchPath("./3rdparty/tvm/include"),
+                .headerSearchPath("./3rdparty/tvm/3rdparty/tvm-ffi/include"),
+                .headerSearchPath("./3rdparty/tvm/3rdparty/tvm-ffi/3rdparty/dlpack/include"),
+                .headerSearchPath("./3rdparty/tvm/3rdparty/dmlc-core/include")
             ]
         ),
         .target(
